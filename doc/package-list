@@ -1,0 +1,9 @@
+com.example.demo
+com.example.demo.controller
+com.example.demo.jsps
+com.example.demo.model
+com.example.demo.repository
+com.example.demo.service
+com.example.demo.util
+com.example.product.service.test
+com.example.user.service.test
