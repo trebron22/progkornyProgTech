@@ -23,11 +23,11 @@ import org.springframework.mock.web.MockHttpSession;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.example.demo.model.Cart;
-import com.example.demo.model.CartElement;
-import com.example.demo.model.Product;
-import com.example.demo.service.IProductService;
-import com.example.demo.util.SessionUtil;
+import com.unideb.beadando.model.Cart;
+import com.unideb.beadando.model.CartElement;
+import com.unideb.beadando.model.Product;
+import com.unideb.beadando.service.IProductService;
+import com.unideb.beadando.util.SessionUtil;
 
 /**
  * product service test.
@@ -36,7 +36,7 @@ import com.example.demo.util.SessionUtil;
  *
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = com.example.demo.DemoApplication.class)
+@SpringBootTest(classes = com.unideb.beadando.DemoApplication.class)
 // @ContextConfiguration
 @ComponentScan({ "com.example.demo.*" })
 @DataJpaTest

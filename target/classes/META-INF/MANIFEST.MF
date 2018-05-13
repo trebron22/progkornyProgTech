@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Implementation-Title: demo2
+Implementation-Title: beadando
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: gagyi.norbert
-Implementation-Vendor-Id: com.simplesoft.gagyi.norbert
-Build-Jdk: 1.8.0_161
-Implementation-URL: http://projects.spring.io/spring-boot/demo2/
+Built-By: root
+Implementation-Vendor-Id: com.unideb
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://projects.spring.io/spring-boot/beadando/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
 

@@ -15,7 +15,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.example.demo.service.IUserService;
+import com.unideb.beadando.service.IUserService;
 
 /**
  * UserServiceTest class.
@@ -23,7 +23,7 @@ import com.example.demo.service.IUserService;
  *
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = com.example.demo.DemoApplication.class)
+@SpringBootTest(classes = com.unideb.beadando.DemoApplication.class)
 // @ContextConfiguration
 @ComponentScan({ "com.example.demo.*" })
 @DataJpaTest
